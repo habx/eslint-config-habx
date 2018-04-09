@@ -5,8 +5,10 @@ Mostly based on https://github.com/airbnb/javascript.
 
 # Usage
 
-To use it make sure to have `eslint` installed in your project then create a file `.eslintrc` with the json bellow.
-
+1) To use it make sure to have `eslint` installed in your project.
+2) Run `npm install --save eslint-config-habx`.
+3) Create a file `.eslintrc`.
+4) Paste the json belloz in the `.eslintrc`.
 
 ```
 {
