@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-habx",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Habx eslint configuration.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/habx/eslint-config-habx#readme",
   "dependencies": {
+    "babel-eslint": "^8.2.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-react": "^1.1.7",
@@ -29,7 +30,8 @@
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-promise": "^3.7.0"
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.7.0"
   },
   "peerDependencies": {
     "eslint": "^4.19.1"
