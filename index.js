@@ -49,7 +49,9 @@ module.exports = {
           "functions": false
         }
       ],
-      "no-empty": 0
+      "no-empty": 0,
+      "no-unused-expressions": 0,
+      "chai-friendly/no-unused-expressions": 2
   },
   "env": {
     "browser": true,
