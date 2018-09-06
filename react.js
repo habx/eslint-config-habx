@@ -15,7 +15,12 @@ module.exports = {
       "no-restricted-globals": ["error", "find"],
       "import/no-webpack-loader-syntax": [0],
       "jsx-a11y/anchor-is-valid": [0],
-      "jsx-a11y/click-events-have-key-events": [0]
+      "jsx-a11y/click-events-have-key-events": [0],
+      "jsx-a11y/label-has-for": [ 2, {
+        "required": {
+          "every": [ "id" ]
+        },
+      }],
   },
   "parserOptions": {
     "jsx": true
