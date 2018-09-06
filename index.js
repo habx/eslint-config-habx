@@ -51,7 +51,12 @@ module.exports = {
       ],
       "no-empty": 0,
       "no-unused-expressions": 0,
-      "chai-friendly/no-unused-expressions": 2
+      "chai-friendly/no-unused-expressions": 2,
+      "jsx-a11y/label-has-for": [ 2, {
+        "required": {
+          "every": [ "id" ]
+        },
+      }],
   },
   "env": {
     "browser": true,
