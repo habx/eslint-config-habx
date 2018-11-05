@@ -16,6 +16,8 @@ module.exports = {
       "promise/no-callback-in-promise": "warn",
       "require-await": "error",
       "quotes": [2, "single"],
+      "no-console": "error", // see APP-2171
+      "no-empty": "error", // see APP-2171
       "max-len": ["error", 100, {
         "ignoreComments": true,
         "ignoreStrings": true,
@@ -70,6 +72,6 @@ module.exports = {
     "logger": true,
     "APPCONFIG": true,
     "hermes": true,
-    "analytics": true
+    "analytics": true,
   }
 }

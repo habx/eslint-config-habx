@@ -29,5 +29,8 @@ module.exports = {
     "browser": true,
     "node": true,
     "mocha": true
+  },
+  "globals": {
+    "Sentry": true, // see APP-2131
   }
 }
