@@ -18,19 +18,19 @@ module.exports = {
       "jsx-a11y/click-events-have-key-events": [0],
       "jsx-a11y/label-has-for": [ 2, {
         "required": {
-          "every": [ "id" ]
+          "every": [ "id" ],
         },
       }],
   },
   "parserOptions": {
-    "jsx": true
+    "jsx": true,
   },
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true
+    "mocha": true,
   },
   "globals": {
     "Sentry": true, // see APP-2131
-  }
+  },
 }

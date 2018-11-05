@@ -2,7 +2,7 @@ module.exports = {
   "plugins": [
       "chai-friendly",
       "promise",
-      "json"
+      "json",
   ],
   "rules": {
       "object-curly-newline":  [ "error", { "consistent": true } ],
@@ -17,12 +17,11 @@ module.exports = {
       "require-await": "error",
       "quotes": [2, "single"],
       "no-console": "error", // see APP-2171
-      "no-empty": "error", // see APP-2171
       "max-len": ["error", 100, {
         "ignoreComments": true,
         "ignoreStrings": true,
         "ignoreRegExpLiterals": true,
-        "ignoreTemplateLiterals": true
+        "ignoreTemplateLiterals": true,
       }],
       "arrow-parens": [2, "as-needed", { "requireForBlockBody": false }],
       "import/prefer-default-export": [0],
@@ -34,8 +33,8 @@ module.exports = {
         "error",
         {
           "argsIgnorePattern": "^_",
-          "ignoreRestSiblings": true
-        }
+          "ignoreRestSiblings": true,
+        },
       ],
       "no-underscore-dangle": ["error", { "allow": ["_id", "__REDUX_DEVTOOLS_EXTENSION__"] }],
       "semi": ["error", "never"],
@@ -48,8 +47,8 @@ module.exports = {
       "no-use-before-define": [
         "error",
         {
-          "functions": false
-        }
+          "functions": false,
+        },
       ],
       "no-empty": 0,
       "no-unused-expressions": 0,
@@ -58,11 +57,11 @@ module.exports = {
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true
+    "mocha": true,
   },
   "parser": "babel-eslint",
   "parserOptions": {
-    "sourceType": "module"
+    "sourceType": "module",
   },
   "extends": ["airbnb-base"],
   "globals": {
@@ -73,5 +72,5 @@ module.exports = {
     "APPCONFIG": true,
     "hermes": true,
     "analytics": true,
-  }
+  },
 }

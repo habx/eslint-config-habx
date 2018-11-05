@@ -16,7 +16,6 @@ pipeline:
   clean-build-and-install:
     image: habx/node-base:9-alpine-npm6
     secrets: [ NPM_TOKEN ]
-    group: npm-install
     environment:
       - NPM_TOKEN=${NPM_TOKEN}
     commands:
@@ -27,7 +26,6 @@ pipeline:
   lint:
     image: habx/node-base:9-alpine-npm6
     secrets: [ NPM_TOKEN ]
-    group: tests-and-lint
     environment:
       - NPM_TOKEN=${NPM_TOKEN}
     commands:
