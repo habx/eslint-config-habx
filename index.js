@@ -70,7 +70,6 @@ module.exports = {
     "expect": true,
     "logger": true,
     "APPCONFIG": true,
-    "hermes": true,
     "analytics": true,
   },
 }
