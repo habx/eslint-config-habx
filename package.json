@@ -23,7 +23,7 @@
   "homepage": "https://github.com/habx/eslint-config-habx#readme",
   "dependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-chai-friendly": "^0.4.1",
